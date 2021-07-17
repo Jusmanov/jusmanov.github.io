@@ -1,0 +1,24 @@
+import time
+currencies = "USD, EUR, SOM, AFN, ALL, DZD, CAD, AZN, BMD, GBP"
+print("Curriencies: " + currencies)
+time.sleep(1)
+currency_input = input("What currency would you like to convert? ")
+if currency_input == "USD":
+        money_input = float(input("How much USD would you like to convert? "))
+        convert_choice = input("What currency would you like to convert " + currency_input + " to? ")
+        if convert_choice == "EUR":
+            print("1 " + currency_input + " is the equivalent of " + "0.85 " + convert_choice + ".")
+        time.sleep(1)
+        print("You have converted your USD into: ")
+        time.sleep(1)
+        USD_EUR = 0.85
+        final_conversion = money_input * 0.85
+        print(final_conversion)
+        print("(EUR)")
+        if convert_choice == "GBP":
+            print("1 " + currency_input + " is the equivalent of " + "0.72 " + convert_choice)
+        if convert_choice == "":
+            print("1 " + currency_input + " is the equivalent of " + "" + convert_choice)
+            
+        if convert_choice == "":
+            print("1 " + currency_input + " is the equivalent of " + "" + convert_choice)
