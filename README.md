@@ -1,2 +1,2 @@
-# johnusmanov.github.io
+# Jusmanov.github.io
 website
